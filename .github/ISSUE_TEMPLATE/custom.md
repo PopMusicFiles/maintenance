@@ -3,6 +3,7 @@ name: Bug Report
 description: File a bug report
 title: "[Bug]: "
 labels: [bug, triage]
+about: Describe this issue template's purpose here.
 assignees:
   - octocat
 body:
