@@ -7,10 +7,10 @@ assignees: ''
 
 ---
 
-# (please only use the discription field, leave everything else as is.)
+### (please only use the discription field, leave everything else as is.)
 
 Artist Name:
 
 Album Name:
 
-(please double check your info)
+(double check your info)
