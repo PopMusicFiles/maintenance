@@ -1,12 +1,29 @@
----
-name: Request A New Pop Artist
-about: Make sure that the artist you request has had/have popularity and success in
-  the charts we feature. Note that the artist may or may not be featured on the website.
-  No guarantees whatsoever..
-title: "[REQUEST ARTIST]"
-labels: request
-assignees: ''
-
----
-
+name: Bug Report
+description: File a bug report
+title: "[Bug]: "
+labels: [bug, triage]
+assignees:
+  - octocat
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
+    validations:
+      required: true
 # (please only use the discription field, leave everything else as is.)
